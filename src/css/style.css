@@ -1,0 +1,58 @@
+html {
+	color: #fff;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	margin: 0 auto;
+	max-width: 1200px;
+	background: rgb(255, 255, 255);
+	background-size: 120% 120%;
+}
+
+section {
+    padding: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+} 
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: pink;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.logo {
+    width: 65px;
+    height: 50px;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-transform: capitalize;
+	padding: 10px 20px;
+	transition: 0.2s;
+}
+
+.navbar a:hover{
+    background-color: #be77f8;
+	color: #fff;
+	border-radius: 50px; 
+}
+
+.redes-sociais {
+    display: flex;
+	gap: 20px;
+}
+
